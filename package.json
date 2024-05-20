@@ -2,8 +2,9 @@
   "name": "oxigeno",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-	"start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
@@ -11,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2"
   }
 }
