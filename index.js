@@ -3,8 +3,8 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-	res.json({ message: 'Hello World!' });
+app.get('/test', (req, res) => {
+	res.json({ message: 'Hello World from Express!' });
 });
 
 app.get('/oxygen-providers', (req, res) => {
